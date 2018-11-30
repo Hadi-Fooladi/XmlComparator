@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>HaFT.XmlComparator</RootNamespace>
+    <PackageId>HaFT.XmlComparator</PackageId>
+    <Authors>Hadi Fooladi Talari</Authors>
+    <Company>HaFT</Company>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
 </Project>
