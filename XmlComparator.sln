@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlComparator", "XmlComparator\XmlComparator.csproj", "{5CFB641C-E892-43FA-A38A-75CD6608B250}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D906C07A-74A3-489D-93DF-0E1134673F4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5CFB641C-E892-43FA-A38A-75CD6608B250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFB641C-E892-43FA-A38A-75CD6608B250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFB641C-E892-43FA-A38A-75CD6608B250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D906C07A-74A3-489D-93DF-0E1134673F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D906C07A-74A3-489D-93DF-0E1134673F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D906C07A-74A3-489D-93DF-0E1134673F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D906C07A-74A3-489D-93DF-0E1134673F4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
