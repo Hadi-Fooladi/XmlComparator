@@ -10,6 +10,7 @@ namespace Tests
 	[TestClass]
 	public class Complex
 	{
+		#region Static Members
 		private const string
 			ROOT = "Files\\Complex\\",
 			FILENAME_1 = "Doc1.xml",
@@ -37,11 +38,15 @@ namespace Tests
 
 			Assert.AreEqual(ExpectedResult, C.AreSame(Doc1, Doc2));
 		}
+		#endregion
 
 		[TestMethod]
 		public void Sibling_Same_DifferentOrder() => Compare(true);
 
 		[TestMethod]
 		public void Sibling_DifferentAttributes() => Compare(false);
+
+		[TestMethod]
+		public void Case1() => Compare(true);
 	}
 }

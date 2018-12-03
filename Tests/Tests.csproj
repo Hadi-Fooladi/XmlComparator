@@ -71,6 +71,12 @@
     <Content Include="Files\Complex\Sibling_DifferentAttributes\Doc2.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Files\Complex\Case1\Doc1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Complex\Case1\Doc2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Files\Complex\Sibling_Same_DifferentOrder\Doc2.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
