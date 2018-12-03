@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace HaFT.XmlComparator
 {
@@ -58,7 +59,7 @@ namespace HaFT.XmlComparator
 			var Node = L1[0];
 			L1.RemoveAt(0);
 
-			foreach (var MatchNode in FindMatches(Node, L2))
+			foreach (var MatchNode in FindMatches(Node, L2).ToArray())
 			{
 				L2.Remove(MatchNode);
 

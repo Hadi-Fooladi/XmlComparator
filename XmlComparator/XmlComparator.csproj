@@ -6,7 +6,7 @@
     <PackageId>HaFT.XmlComparator</PackageId>
     <Authors>Hadi Fooladi Talari</Authors>
     <Company>HaFT</Company>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
 </Project>
